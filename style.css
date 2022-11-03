@@ -1,5 +1,5 @@
 body{
-    background-color: #08D9D6;
+    background-color: teal;
 }
 .clock-container{
     background:url(clock.png) no-repeat;
@@ -19,13 +19,13 @@ body{
     
 }
 .clock-ui{
-    border: 8px dotted #FF2E63;
+    border: 12px dashed lavender;
     border-radius: 49%;
-    box-shadow: 0 10px 15px 15px #0f3442;
+    box-shadow: 5px 5px 15px 5px #0f3442;
     transition: 250ms;
 }
 .clock-ui:hover{
-    box-shadow: 0 20px 20px 10px #07202f;
+    box-shadow: 5px 7px 10px 3px #07202f;
 }
 #hour,#minute,#second{
     position: absolute;
@@ -59,3 +59,27 @@ body{
     right: 50%;
 }
 
+.digital{
+    height: 60px;
+    width:200px;
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    border-radius: 15px;
+    background-color: #fff;
+    box-shadow: 2px 1px 15px 8px #ccc inset;
+    margin-inline: auto;
+    margin-top: 100px;
+}
+span{
+    font-size:3rem;
+}
+#hr{
+    color:indigo;
+}
+#min{
+    color:pink;
+}
+#sec{
+    color:crimson;
+}
