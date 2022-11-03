@@ -19,7 +19,7 @@ body{
     
 }
 .clock-ui{
-    border: 12px dashed lavender;
+    border: 12px dotted lightseagreen;
     border-radius: 49%;
     box-shadow: 5px 5px 15px 5px #0f3442;
     transition: 250ms;
